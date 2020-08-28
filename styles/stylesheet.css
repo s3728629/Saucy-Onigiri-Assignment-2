@@ -1,0 +1,79 @@
+
+p {
+    font-family: 'Roboto';
+    font-style: normal;
+    color: #000000;
+    font-size: 24px;
+}
+
+h1 {
+    font-family: 'Alegreya Sans SC';
+    font-style: normal;
+    color: #303031;
+    font-size: 72px;
+}
+
+h2 {
+    font-family: 'Alegreya Sans SC';
+    font-style: normal;
+    color: #3F5B86;
+    font-size: 72px;
+}
+
+h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    color: #71A894;
+    font-size: 28px;
+}
+
+h4 {
+    font-family: 'Alegreya Sans SC';
+    font-style: normal;
+    color: #3F5B86;
+    font-size: 36px;
+}
+
+footer {
+background-color: #9de1fc;
+text-align: center;
+position: fixed;
+width: 1400px;
+}
+
+body {
+  width: 1400px;
+  margin: auto;
+  border: 10px solid #E1EDF8;
+  padding-top: 50px;
+  padding-right: 80px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+  
+  }
+div.header {
+  width: 1400px;
+  padding-bottom: 25px;
+  background-color: E1EDF8;
+
+}
+
+.nav {
+  background-color: #9de1fc;
+  list-style-type: none;
+  text-align: center;
+  margin: auto;
+  padding: 10;
+  width: 1200px;
+  font-family: 'Roboto';
+    font-style: normal;
+    color: #000000;
+    font-size: 24px;
+}
+.nav li {
+  display: inline-block;
+  font-size: 20px;
+  color: black;
+  font-weight: bold;
+  padding: 20px;
+}
