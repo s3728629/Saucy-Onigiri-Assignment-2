@@ -1,2 +1,2 @@
 # Saucy-Onigiri-Assignment-2
-This is where we upload our drafts, content and progress of code.
+This is where you upload your drafts for code.
