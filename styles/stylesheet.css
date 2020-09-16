@@ -131,3 +131,9 @@ table, th, td {
 .back_to_top:hover {
     background: #FF7E67;
 }
+
+.li {
+  text-align: left;
+  font-size: 20px;
+  color: #000;
+}
