@@ -133,7 +133,16 @@ table, th, td {
 }
 
 li {
+  font-family: 'Comfortaa';  
   text-align: left;
   font-size: 20px;
   color: #000;
+}
+
+h4 {
+  font-family: 'Comfortaa';  
+  text-align: left;
+  font-size: 20px;
+  color: #000;
+  font-weight: bold;
 }
