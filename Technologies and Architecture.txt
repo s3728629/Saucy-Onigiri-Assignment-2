@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Saucy Onigiri - Home</title>
+    <meta name="author" content="Saucy Onigiri">
+    <link rel="stylesheet" type="text/css" href="styles/stylesheet.css" />
+    <link href='https://fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet'>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="box nav">
+
+          
+            <div class="topnav">
+                <img src="images/onigiri.png" alt="onigiri" height="40px">
+                <a href="#.html">another thing</a>
+                <a href="#.html">other thing</a>
+                <a href="#.html">something</a>
+               <a class="active" href= "index.html">Home</a>
+            </div>
+        </div>
+
+        <div class="box header">
+            <h1><ins>Saucy Onigiri - Stay Connected</ins> </h1>
+        </div>
+
+        <div class="box content">
+            <h2>Technologies and Architecture</h2><br>
+            <h3>Technology</h3>
+		<ul>
+		   <li>Google Docs</li>
+		   <ul> 
+			<li>Will be used to organise a design proposal for assignment 2.</li>
+			<li>We chose to use this tool because it’s easy for group members to collaborate together.</li>
+                 </ul>
+		 <li>Trello</li>
+		 <ul>
+			<li>Tasks can be created and managed in the kanban list style.</li>
+                        <li>We chose this tool because all members can access the list and keep each other organised with setting deadlines for tasks. 
+                            It also helps keep the group on one page and the same track hence why we chose to use it.</li>
+		 </ul>
+		 <li>Github</li>
+		 <ul>
+			<li>Will be used to create a website using HTML and CSS containing our proposal.</li>
+			<li>We chose this tool because Github allows each member to edit the HTML and CSS code, making it easier for team members to collaborate on coding.</li>
+		 </ul>
+		 <li>Figma</li>
+		 <ul>
+			<li>Will be used to create design drafts of our minimal viable features and layout of our website.</li>
+			<li>We chose to use Figma, as most of us have used it before and it is collaborative.
+		 </ul>
+		 <li>Microsoft Teams</li>
+		 <ul> 
+			<li>Used to host meetings and files.<.li>
+			<li>We chose Microsoft Teams because it contains all the features we need to communicate with team members such as video call, messaging and file sharing.</li>
+		</ul>
+		<li>AWS</li>
+ 		<ul>
+			<li>Will be used to host our website.</li>
+			<li>We are using AWS because all of the team members are familiar with it and find it easy to use.</li>
+		</ul>
+		<li>Resources</li>
+		<ul>
+			<li>Used to gather icons to use in design prototypes.</li>
+			<li> <a href="https://material.io/">https://material.io/</a></li>
+
+
+
+
+
+
+
+
+
+
+	
+  
