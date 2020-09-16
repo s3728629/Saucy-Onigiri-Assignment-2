@@ -9,23 +9,29 @@ p {
     font-size: 18px;
 }
 
-h1{
+h1 {
     font-family: 'Lobster';
     font-style: normal;
     color: #000;
     font-size: 55px;
 }
 
-h2{
+h2 {
     font-family: 'Lobster';
     font-style: normal;
     color: #FF7E67;
     font-size: 40px;
 }
 
-h3{
+h3 {
     font-family: 'Comfortaa';
     font-style: bold;
+    color: #FF7E67;
+    font-size: 20px;
+}
+
+figcaption {
+    font-family: 'Comfortaa';
     color: #FF7E67;
     font-size: 20px;
 }
@@ -41,7 +47,7 @@ h3{
     grid-area: content;
     padding: 20px;
     border-radius: 0px;
-    height: 97%;
+    height: 99.5%;
     background-color: #ECF4F3;
     text-align: center;
     border-radius: 50px;
@@ -80,11 +86,7 @@ h3{
     display: grid;
     grid-gap: 25px;
     grid-template-columns: 400px, 400px;
-    grid-template-areas: 
-    "nav" 
-    "header" 
-    "content" 
-    "footer";
+    grid-template-areas: "nav" "header" "content" "footer";
     background-color: #fff;
     color: #444;
 }
@@ -105,4 +107,27 @@ h3{
 
 .topnav a.active {
     text-decoration: underline;
+}
+
+table, th, td {
+    border: 1px solid black;
+    padding: 15px;
+    border-collapse: collapse;
+    font-family: 'Comfortaa';
+    font-style: normal;
+    color: #000;
+    font-size: 18px;
+}
+
+.back_to_top {
+    background: #68B0AB;
+    color: #000;
+    border-radius: 10px;
+    padding: 14px 45px;    
+    text-decoration: none;
+    display: inline-block;
+}
+
+.back_to_top:hover {
+    background: #FF7E67;
 }
