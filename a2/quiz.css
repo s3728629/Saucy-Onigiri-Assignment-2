@@ -1,0 +1,140 @@
+p {
+    font-family: 'Roboto';
+    font-style: normal;
+    color: #000000;
+    font-size: 24px;
+}
+
+h1 {
+    font-family: 'Alegreya Sans SC';
+    font-style: normal;
+    color: #303031;
+    font-size: 72px;
+}
+
+h2 {
+    font-family: 'Alegreya Sans SC';
+    font-style: normal;
+    color: #3F5B86;
+    font-size: 72px;
+}
+
+h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    color: #71A894;
+    font-size: 28px;
+}
+
+h4 {
+    font-family: 'Alegreya Sans SC';
+    font-style: normal;
+    color: #3F5B86;
+    font-size: 36px;
+}
+
+.box {
+    background-color: #fff;
+    display: grid;
+}
+
+.nav {
+    grid-area: nav;
+    background-color: #E1EDF8;
+    border-radius: 0px;
+    padding: 14px;
+}
+
+.nav a {
+    float: right;
+    padding: 10px 10px;
+    color: #000;
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    color: #71A894;
+}
+
+.nav a.active {
+    text-decoration: underline;
+    font-weight: bolder;
+}        
+
+
+.content {
+    grid-area: content;
+    position: relative;
+    padding: 40px;
+    height: 325px;
+    text-align: center;
+    height: 100%;
+
+}
+
+.header {
+    grid-area: header;
+    padding: 20px;
+    margin: 50px;
+    text-align: center;
+}
+
+.footer {
+    grid-area: footer;
+    background-color: #A2A0D0;
+    text-align: center;
+    padding: 15px;
+    height: 100%;
+}
+
+.tute {
+    display: grid;
+    grid-gap: 1rem;
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #B4DBF8;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 15px;
+  }
+
+.wrapper {
+    display: grid;
+    grid-gap: 25px;
+    grid-template-columns: 400px, 400px;
+    grid-template-areas:
+        "nav  nav"
+        "header  header"
+        "content  content"
+        "footer  footer";
+    }
+
+.img {
+    border-radius: 55px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.click {
+    border: 0px;
+    background: #A2A0D0;
+    color: #fff;
+    border-radius: 50px;
+    padding: 14px 45px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.click:hover {
+    background: #E1EDF8;
+    color: #000;
+}
