@@ -161,3 +161,12 @@
         .click:hover {
             background: #E1EDF8;
         }
+
+        .back_to_top {
+            background: #A2A0D0;
+            color: #000;
+            border-radius: 50px;
+            padding: 14px 45px;    
+            text-decoration: none;
+            display: inline-block;
+        }
