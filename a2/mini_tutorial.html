@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="styles/minitutorial.css">
+        <link href='https://fonts.googleapis.com/css?family=Alegreya Sans SC' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+        <script type="text/javascript" src="scripts/minitutorial.js"></script>
+    </head>
+    <body>
+
+
+        <!--surround the select box with a "custom-select" DIV element. Remember to set the width:-->
+        <div class="wrapper">
+            <div class="nav">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#71A894" height="50px">
+                    <path d="M0 0h24v24H0V0z" fill="none" />
+                    <path
+                        d="M23.99 3H0v18h24l-.01-18zM8 6c1.66 0 3 1.34 3 3s-1.34 3-3 3-3-1.34-3-3 1.34-3 3-3zm6 12H2v-1c0-2 4-3.1 6-3.1s6 1.1 6 3.1v1zm3.85-4h1.64L21 16l-1.99 1.99c-1.31-.98-2.28-2.38-2.73-3.99-.18-.64-.28-1.31-.28-2s.1-1.36.28-2c.45-1.62 1.42-3.01 2.73-3.99L21 8l-1.51 2h-1.64c-.22.63-.35 1.3-.35 2s.13 1.37.35 2z" />
+                </svg>
+                <a href="#">Help</a>
+                <a href="#">Tutorials</a>
+                <a class="active" href="index.html">Home page</a>
+            </div>
+        <div class="content">
+           
+            <div class="header">
+                <h1>Mini Tutorials</h1>
+                <h3>If you are unaware of how to do certain actions within this website, please use these mini tutorials below. You can always come back to this page later on. </h3>
+                <h3>Please Click any option you want to learn about by clicking blue rectangle boxes for each corresponding Mini Tutorial to View it.</h3>
+            </div>
+            
+          <div class="contentBox"> <!-- contentBox one-->
+                
+                <button class ="button" onclick="hiddenTute()">How to go back to the previous page</button>
+                <div id="hiddenContent">
+                <p>This is where the mini tutorials go</p>
+                </div>
+                <br><br>
+                <button class ="button" onclick="hiddenTute2()">How to use a Quiz</button>
+                <div id="hiddenContent2">
+                <p>This is where the mini tutorials go</p>
+                </div>
+                <br><br>
+                <button class ="button" onclick="hiddenTute3()">How to watch a video</button>
+                <div id="hiddenContent3">
+                <p>This is where the mini tutorials go</p>
+                </div>
+                <br><br>
+                <button class ="button" onclick="hiddenTute4()">How to use the printable guides</button>
+                <div id="hiddenContent4">
+                <p>This is where the mini tutorials go</p>
+                </div>
+                <br><br>
+                <button class ="button" onclick="hiddenTute5()">How to use the chatbot / help feature</button>
+                <div id="hiddenContent5">
+                <p>This is where the mini tutorials go</p>
+                </div>
+
+            </div><!-- closing of contentBox one-->
+            <h4><button type="button" id= "button" onclick="location.href='#';">Finished</button></h4>
+          </div> <!-- closing of content box-->
+        <br>
+        
+        <div class="box footer">
+            <p><br>© Copyright since 2020</p>
+        </div> 
+        </div> <!-- closes wrapper-->
+        </body>
+</html>
