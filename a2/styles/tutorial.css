@@ -161,6 +161,14 @@
         .click:hover {
             background: #E1EDF8;
         }
+        
+        a {
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
 
         .back_to_top {
             background: #A2A0D0;
