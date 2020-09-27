@@ -166,10 +166,6 @@
             text-decoration: none;
         }
 
-        a:hover {
-            text-decoration: underline;
-        }
-
         .back_to_top {
             background: #A2A0D0;
             color: #000;
