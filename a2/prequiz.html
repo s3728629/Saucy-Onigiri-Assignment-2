@@ -1,99 +1,189 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-
 <head>
-    <title>Saucy Onigiri</title>
-    <link rel="stylesheet" type="text/css" href="styles/prequizstyle.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles/prequiz.css" />
+    <link rel="stylesheet" type="text/css" href="styles/select.css" />
     <link href='https://fonts.googleapis.com/css?family=Alegreya Sans SC' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
-</head>
+    <!-- some reason, when I link my js file with the js code in it to the html, it does 
+          not work.
+          But it works when I put the js in the html file.-->
+    <script type="text/javascript" src="scripts/prequiz.js"></script>
+
+</head>     
 
 <body>
-    <div class="wrapper">
-        <div class="nav">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#71A894" height="50px">
-                <path d="M0 0h24v24H0V0z" fill="none" />
-                <path
-                    d="M23.99 3H0v18h24l-.01-18zM8 6c1.66 0 3 1.34 3 3s-1.34 3-3 3-3-1.34-3-3 1.34-3 3-3zm6 12H2v-1c0-2 4-3.1 6-3.1s6 1.1 6 3.1v1zm3.85-4h1.64L21 16l-1.99 1.99c-1.31-.98-2.28-2.38-2.73-3.99-.18-.64-.28-1.31-.28-2s.1-1.36.28-2c.45-1.62 1.42-3.01 2.73-3.99L21 8l-1.51 2h-1.64c-.22.63-.35 1.3-.35 2s.13 1.37.35 2z" />
-            </svg>
-            <a href="help.html">Help</a>
-            <a href="tutorialHomePage.html">Tutorials</a>
-            <a class="active" href="index.html">Home page</a>
-        </div>
 
-        <div class="box content">
 
-            <h1>Welcome to the Pre-Quiz</h1>
-            <h3>In order to create the best experience for you, please take this quiz. This quiz will customise your website interface to adjust to your suitable needs. After completing this short quiz, you will be taken to the home page. Otherwise, if you wish to skip this quiz, please click on the 'Skip' button below.
-            </h3>
-            <h4><button type="button" class= "button" onclick="location.href='#';">Skip</button></h4>
-            <div class="tute">
+<!--surround the select box with a "custom-select" DIV element. Remember to set the width:-->
+<div class="wrapper">
+  <div class="nav">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#71A894" height="50px">
+        <path d="M0 0h24v24H0V0z" fill="none" />
+        <path
+            d="M23.99 3H0v18h24l-.01-18zM8 6c1.66 0 3 1.34 3 3s-1.34 3-3 3-3-1.34-3-3 1.34-3 3-3zm6 12H2v-1c0-2 4-3.1 6-3.1s6 1.1 6 3.1v1zm3.85-4h1.64L21 16l-1.99 1.99c-1.31-.98-2.28-2.38-2.73-3.99-.18-.64-.28-1.31-.28-2s.1-1.36.28-2c.45-1.62 1.42-3.01 2.73-3.99L21 8l-1.51 2h-1.64c-.22.63-.35 1.3-.35 2s.13 1.37.35 2z" />
+    </svg>
+    <a href="#">Help</a>
+    <a href="#">Tutorials</a>
+    <a class="active" href="index.html">Home page</a>
+</div>
 
-                <div class="card">
-                    
-                    <h4>1. What language do you prefer?</h4>
-                    <form class= "registration_form" action="#">
-                        <label for="language">Choose Your Prefered Language:</label>
-                        <select name="language" id="language">
-                            <option value="englishL">English (Default)</option>
-                            <option value="mandarinL">Mandarin</option>
-                            <option value="arabicL">Arabic</option>
-                            <option value="cantoneseL">Cantonese</option>
-                            <option value="vietnameseL">Vietnamese</option>
-                            <option value="italianL">Italian</option>
-                          </select>
-                    </form>
-                    
-                </div>
-        
-            </div>
-            <br>
-            <div class="tute">
+<div class ="header2">
 
-                <div class="card">
-                    
-                    <h4>2. What text size do you prefer?</h4>
-                    <form class= "registration_form" action="#">
-                        <label for="textSize">Choose Your Text Size:</label>
-                        <select name="textSize" id="textSize">
-                            <option value="normalText">Normal (Default)</option>
-                            <option value="mediumText">Medium</option>
-                            <option value="largeText">Large</option>
-                            
-                          </select>
-                    </form>
-                </div>
-                
-            </div>
-            <br>
-            <div class="tute">
+  <h1>Welcome To Stay Connected</h1>
+  <h3>In order to create the best experience for you, please take this quiz. This quiz will customise your website interface to adjust to your suitable needs. After completing this short quiz, you will be taken to the home page. Otherwise, if you wish to skip this quiz, please click on the 'Skip' button below.
+  </h3>
+  <h4><button type="button" id= "button" onclick="location.href='#';">Skip</button></h4>
+  <div class="tute">
+</div>
+<div class="content">
 
-                <div class="card">
-                    
-                    <h4> 3 - What type of device are you using?</h4>
-                    <form class= "registration_form" action="#">
-                        <input type="radio" id="devices" name="vehicle1" value="Bike">
-                         <label for="deviceType">Andriod (eg. Samsung, Google)</label><br>
-                         <input type="radio" id="vehicle2" name="vehicle2" value="Car">
-                         <label for="device">Apple (eg. iPhone)</label><br>
-                    </form>
-                </div>
-                
-            </div>
-            <h2>Once you have finished, click the button <br>'Finished' Below</h2>
-            <span style="text-align: right;">
-                    <!-- need to add a addEvent to this button and href link to the home page along with the changes-->
-                    <h4><button type="button" class= "button" onclick="alert('You have completed the quiz!')">Finished</button></h4>
-                    
-            </span>
-        </div>
-        
-        <div class="box footer">
-            <p><br>&copy Copyright since 2020</p>
-        </div>
-
+  <div class="tute"> <!-- tute one-->
+    <div class="card">
+      <h2>1. What Language do your prefer?</h2>
+      <div class ="selectionCard">
+        <form class="custom-select" style="width:200px;" action ="#">
+          <select>
+            <option value="0">Choose A Language </option>
+            <option value="1">English</option>
+            <option value="2">Mandarin</option>
+            <option value="3">Arabic</option>
+            <option value="4">Cantonese</option>
+            <option value="5">Vietnamese</option>
+            <option value="6">Italian</option>
+            
+          </select>
+        </form>
+        </div> <!-- closes selectionCard-->
     </div>
+  </div> <!-- closing of tute one-->
+<br>
+<div class ="tute">
+<div class = "card">
+    <h2>2. What text size do you prefer?</h2>
+<div class ="selectionCard">
+<form class="custom-select" style="width:200px;" action ="#">
+  <select>
+    <option value="0">Select Font Size</option>
+    <option value="1">Small</option>
+    <option value="2">Medium</option>
+    <option value="3">Large</option>
+    <option value="3">Extra Large</option>
+    
+  </select>
+</form>
+</div> <!-- closes selectionCard-->
+</div><!--closes card-->
+</div> <!-- closes tute-->
+<br>
+<div class="tute"> <!-- tute one-->
+  <div class="card">
+    <h2>1. What Language do your prefer?</h2>
+    <div class ="selectionCard">
+      <form class= "radio_form" action="#">
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Andriod (eg. Samsung, Google)</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Apple (eg. iPhone)</label>
+      
+    </form>
+      </div> <!-- closes selectionCard-->
+  </div>
+  <span style="text-align: right;">
+                
+    <h4><button type="button" id= "button" onclick="location.href='#';">Finished</button></h4>
+</span>
+</div> <!-- closing of tute one-->
+
+</div><!-- closes content-->
+
+
+</div> <!-- closes wrapper-->
+<div class="box footer">
+  <p><br>© Copyright since 2020</p>
+</div>
+
+<script>
+  var x, i, j, l, ll, selElmnt, a, b, c;
+/*look for any elements with the class "custom-select":*/
+x = document.getElementsByClassName("custom-select");
+l = x.length;
+for (i = 0; i < l; i++) {
+  selElmnt = x[i].getElementsByTagName("select")[0];
+  ll = selElmnt.length;
+  /*for each element, create a new DIV that will act as the selected item:*/
+  a = document.createElement("DIV");
+  a.setAttribute("class", "select-selected");
+  a.innerHTML = selElmnt.options[selElmnt.selectedIndex].innerHTML;
+  x[i].appendChild(a);
+  /*for each element, create a new DIV that will contain the option list:*/
+  b = document.createElement("DIV");
+  b.setAttribute("class", "select-items select-hide");
+  for (j = 1; j < ll; j++) {
+    /*for each option in the original select element,
+    create a new DIV that will act as an option item:*/
+    c = document.createElement("DIV");
+    c.innerHTML = selElmnt.options[j].innerHTML;
+    c.addEventListener("click", function(e) {
+        /*when an item is clicked, update the original select box,
+        and the selected item:*/
+        var y, i, k, s, h, sl, yl;
+        s = this.parentNode.parentNode.getElementsByTagName("select")[0];
+        sl = s.length;
+        h = this.parentNode.previousSibling;
+        for (i = 0; i < sl; i++) {
+          if (s.options[i].innerHTML == this.innerHTML) {
+            s.selectedIndex = i;
+            h.innerHTML = this.innerHTML;
+            y = this.parentNode.getElementsByClassName("same-as-selected");
+            yl = y.length;
+            for (k = 0; k < yl; k++) {
+              y[k].removeAttribute("class");
+            }
+            this.setAttribute("class", "same-as-selected");
+            break;
+          }
+        }
+        h.click();
+    });
+    b.appendChild(c);
+  }
+  x[i].appendChild(b);
+  a.addEventListener("click", function(e) {
+      /*when the select box is clicked, close any other select boxes,
+      and open/close the current select box:*/
+      e.stopPropagation();
+      closeAllSelect(this);
+      this.nextSibling.classList.toggle("select-hide");
+      this.classList.toggle("select-arrow-active");
+    });
+}
+function closeAllSelect(elmnt) {
+  /*a function that will close all select boxes in the document,
+  except the current select box:*/
+  var x, y, i, xl, yl, arrNo = [];
+  x = document.getElementsByClassName("select-items");
+  y = document.getElementsByClassName("select-selected");
+  xl = x.length;
+  yl = y.length;
+  for (i = 0; i < yl; i++) {
+    if (elmnt == y[i]) {
+      arrNo.push(i)
+    } else {
+      y[i].classList.remove("select-arrow-active");
+    }
+  }
+  for (i = 0; i < xl; i++) {
+    if (arrNo.indexOf(i)) {
+      x[i].classList.add("select-hide");
+    }
+  }
+}
+/*if the user clicks anywhere outside the select box,
+then close all select boxes:*/
+document.addEventListener("click", closeAllSelect);
+</script>
 
 </body>
-
 </html>
