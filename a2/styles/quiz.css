@@ -63,8 +63,14 @@ h4 {
 .nav a.active {
     text-decoration: underline;
     font-weight: bolder;
-}        
+} 
 
+.header {
+    grid-area: header;
+    padding: 20px;
+    margin: 50px;
+    text-align: center;
+}
 
 .content {
     grid-area: content;
@@ -73,14 +79,6 @@ h4 {
     height: 325px;
     text-align: center;
     height: 100%;
-
-}
-
-.header {
-    grid-area: header;
-    padding: 20px;
-    margin: 50px;
-    text-align: center;
 }
 
 .footer {
@@ -94,9 +92,9 @@ h4 {
 .tute {
     display: grid;
     grid-gap: 1rem;
-  }
-  
-  .card {
+}
+
+.card {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -104,7 +102,7 @@ h4 {
     padding: 1rem;
     text-align: center;
     border-radius: 15px;
-  }
+}
 
 .wrapper {
     display: grid;
@@ -115,14 +113,8 @@ h4 {
         "header  header"
         "content  content"
         "footer  footer";
-    }
-
-.img {
-    border-radius: 55px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
 }
+
 .click {
     border: 0px;
     background: #A2A0D0;
@@ -138,3 +130,48 @@ h4 {
     background: #E1EDF8;
     color: #000;
 }
+
+#registration_form .label {
+    width: 140px;
+}
+
+#booking_form .label {
+    float: left;
+    width: 300px;
+}
+
+select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+#registration_form .error {
+    display: none;
+}
+
+#registration_submit {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 24px;
+    border: 0px;
+    background: #A2A0D0;
+    color: #fff;
+    border-radius: 50px;
+    padding: 14px 45px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+#registration_submit:hover {
+    background: #E1EDF8;
+    color: #000;
+}
+
+
