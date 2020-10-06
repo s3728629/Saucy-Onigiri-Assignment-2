@@ -195,3 +195,9 @@
             text-decoration: none;
             display: inline-block;
         }
+
+        .images {
+            max-width:40%;
+            height:auto;
+        }
+
