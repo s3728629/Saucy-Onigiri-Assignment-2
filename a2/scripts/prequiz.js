@@ -1,19 +1,3 @@
-// info on adding devents https://www.w3schools.com/js/js_events.asp
-
-//addEventlistener (adding and removing) 
-//https://www.w3schools.com/js/js_htmldom_eventlistener.asp
-
-//if statement. if user chooses blank, do the corresponding condition.
-
-//var homePage = 'index.html';
-
-function changePreferences() {
-        
-        window.location.href ="index.html";
-        homePage.querySelector("h2").style.backgroundColor= "blue";
-}
-
-
 function changeFont() {
         const size = document.querySelector('.font_selection');
         const selection = size.options[size.selectedIndex].text
