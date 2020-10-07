@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Sending emojis - Quiz</title>
+    <link rel="stylesheet" type="text/css" href="styles/quiz.css" />
+    <link href='https://fonts.googleapis.com/css?family=Alegreya Sans SC' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <script type="text/javascript" src="scripts/iPhone_emojis_Quiz.js"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+
+
+        <div class="nav">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#71A894" height="50px">
+                <path d="M0 0h24v24H0V0z" fill="none" />
+                <path
+                    d="M23.99 3H0v18h24l-.01-18zM8 6c1.66 0 3 1.34 3 3s-1.34 3-3 3-3-1.34-3-3 1.34-3 3-3zm6 12H2v-1c0-2 4-3.1 6-3.1s6 1.1 6 3.1v1zm3.85-4h1.64L21 16l-1.99 1.99c-1.31-.98-2.28-2.38-2.73-3.99-.18-.64-.28-1.31-.28-2s.1-1.36.28-2c.45-1.62 1.42-3.01 2.73-3.99L21 8l-1.51 2h-1.64c-.22.63-.35 1.3-.35 2s.13 1.37.35 2z" />
+            </svg>
+            <a href="help.html">Help</a>
+            <a class="active" href="#">Tutorials</a>
+            <a href="index.html">Home page</a>
+        </div>
+
+
+        <div class="box header">
+            <h1>Sending emojis - Quiz</h1>
+            <h3> Test your understand here</h3>
+            <p><a class="click" href="#">Need help with the quiz?</a></p>
+        </div>
+
+        <div class="box content">
+
+            <div id="container">
+                <div class="tute">
+
+                    <div class="card">
+
+                        <h4>Question 1 - Which is the Messages app?
+                        </h4>
+
+                        <form id="registration_form" onsubmit="return checkForm()">
+
+                            <div>
+                                <p>
+                                    <input type="radio" id="a1" name="question1" value="a1">
+                                    a. <label for="a"><img src="images/c.png" alt="a"></label><br>
+                                    <input type="radio" id="b1" name="question1" value="b1">
+                                    b. <label for="b"><img src="images/b.png" alt="a"></label><br>
+                                    <input type="radio" id="c1" name="question1" value="c1">
+                                    c. <label for="c"><img src="images/a.png" alt="a"></label><br>
+                                    <input type="radio" id="d1" name="question1" value="d1">
+                                    d. <label for="d"><img src="images/d.png" alt="a"></label></p>
+                            </div>
+                            <div class="error" id="question1Error">
+                                <p><br>The answer is c. The Messages app is green with a white speech bubble in the
+                                    center.
+                                </p>
+                            </div>
+                            <div class="error" id="correctQ1">
+                                <p><br>That's correct!!</p>
+                            </div>
+
+                            <div><input id="registration_submit" type="submit" value="Check Answer" /></div>
+
+                        </form>
+                    </div>
+
+                    <div class="card">
+                        <h4>Question 2 - Where do you click to get the emoji keyboard up?
+                        </h4>
+
+                        <form id="registration_form" onsubmit="return checkForm2()">
+
+                            <div>
+                                <p>
+                                    <input type="radio" id="a2" name="question2" value="a2">
+                                    <label for="a">Press textbox to bring up keyboard, click on the 123 button to show
+                                        <br>the emoji keyboard or press textbox to bring up keyboard, click on the
+                                        circular
+                                        <br>rectangle A button.<br></label><br>
+                                    <input type="radio" id="b2" name="question2" value="b2">
+                                    <label for="b">Press textbox to bring up keyboard, long press on globe button to
+                                        <br>bring list of keyboards and select emoji or press textbox to bring up
+                                        keyboard
+                                        <br>and press on the smiley face.<br></label><br></p>
+                            </div>
+                            <div class="error" id="question2Error">
+                                <p>The answer is b.<br>
+                                    1. Press the text bar which should open the keyboard on the bottom half.<br>
+                                    2. At the bottom left, hold on the globe button until your list of keyboards shows
+                                    up.<br>
+                                    3. Select the emoji keyboard.</p>
+                            </div>
+                            <div class="error" id="correctQ2">
+                                <p>That's correct!!</p>
+                            </div>
+
+                            <div><input id="registration_submit" type="submit" value="Check Answer" /></div>
+
+                        </form>
+                    </div>
+
+                    <div class="card">
+
+                        <h4>Question 3 - How do you return to your language keyboard after using the emoji keyboard?
+                        </h4>
+
+                        <form id="registration_form" onsubmit="return checkForm3()">
+
+                            <div>
+                                <p>
+                                    <input type="radio" id="a3" name="question3" value="a3">
+                                    <label for="a">Press the arrow button with the X in the centre on the bottom right
+                                        <br>to go back to your language keyboard.<br>
+                                    </label><br>
+                                    <input type="radio" id="b3" name="question3" value="b3">
+                                    <label for="b">Long press on the globe button to bring a list of keyboards and
+                                        <br>select your language keyboard or press on ABC button on the bottom left.
+                                    </label><br>
+                            </div>
+                            <div class="error" id="question3Error">
+                                <p><br>The answer is b.</p>
+                            </div>
+                            <div class="error" id="correctQ3">
+                                <p><br>That's correct!!</p>
+                            </div>
+
+                            <div><input id="registration_submit" type="submit" value="Check Answer" /></div>
+
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+            <br>
+            <p><a class="click" href="#">Finished</a></p>
+        </div>
+    </div>
+
+    <div class="box content3"></div>
+
+    <div class="box footer">
+        <p><br>© Copyright since 2020</p>
+    </div>
+    </div>
+</body>
+
+</html>
