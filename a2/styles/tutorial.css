@@ -201,3 +201,9 @@
             height:auto;
         }
 
+        li {
+            font-family: 'Roboto';
+            font-style: normal;
+            color: #000000;
+            font-size: 24px;
+        }
