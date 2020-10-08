@@ -115,6 +115,7 @@ h4 {
     border-radius: 15px;
   }
 
+
 .wrapper {
     display: grid;
     grid-gap: 25px;
@@ -149,16 +150,19 @@ h4 {
 
 
 .button {
+    border: 0px;
     background: #A2A0D0;
+    color: #fff;
     border-radius: 50px;
-    border: none;
-    color: white;
-    padding: 33.4028px 40.0833px;
+    padding: 14px 45px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 40px;
-    cursor: pointer;
+}
+
+.button:hover {
+    background: #E1EDF8;
+    color: #000;
 }
 
 img {
