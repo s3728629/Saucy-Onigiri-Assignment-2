@@ -167,6 +167,6 @@ h4 {
 
 img {
     border-radius: 50px;
-    width: 409px;
-    height: 272px;    
+    width: 100%;
+    object-fit: cover;
 }
