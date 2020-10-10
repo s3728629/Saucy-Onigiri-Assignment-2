@@ -2,11 +2,11 @@
 <html>
 
 <head>
-    <title>iPhone: FaceTime Quiz</title>
+    <title>Andriod: Sending images - Quiz</title>
     <link rel="stylesheet" type="text/css" href="styles/quiz.css" />
     <link href='https://fonts.googleapis.com/css?family=Alegreya Sans SC' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
-    <script type="text/javascript" src="scripts/facetime_quiz.js"></script>
+    <script type="text/javascript" src="scripts/andriod_send_img_quiz.js"></script>
 </head>
 
 <body>
@@ -26,7 +26,7 @@
 
 
         <div class="box header">
-            <h1>iPhone: FaceTime QuiziPhone: FaceTime Quiz</h1>
+            <h1>Andriod: Sending images - Quiz</h1>
             <h3> Test your understand here</h3>
             <p><a class="click" href="#">Need help with the quiz?</a></p>
         </div>
@@ -38,24 +38,24 @@
 
                     <div class="card">
 
-                        <h4>Question 1 - Which app the FaceTime app?</h4>
+                        <h4>Question 1 -Which is the Messages app?</h4>
 
                         <form id="registration_form" onsubmit="return checkForm()">
 
                             <div>
                                 <p>
                                     <input type="radio" id="a1" name="question1" value="a1">
-                                    a. <label for="a"><img src="images/a.png" alt="a"></label><br>
+                                    <label for="a">a. <img src="images/a2.png_225" height="128px" alt="a"></label><br>
                                     <input type="radio" id="b1" name="question1" value="b1">
-                                    b. <label for="b"><img src="images/b.png" alt="a"></label><br>
+                                    <label for="b">b. <img src="images/00.png" alt="a"></label><br>
                                     <input type="radio" id="c1" name="question1" value="c1">
-                                    c. <label for="c"><img src="images/c.png" alt="a"></label><br>
+                                    <label for="c">c. <img src="images/0.png" alt="a"> </label><br>
                                     <input type="radio" id="d1" name="question1" value="d1">
-                                    d. <label for="d"><img src="images/d.png" alt="a"></label></p>
+                                    <label for="d">d. <img src="images/000.png" alt="a"></label></p>
                             </div>
                             <div class="error" id="question1Error">
-                                <p><br>The answer is d, FaceTime app is with a video recorder in the center as you are
-                                    filming your face.</p>
+                                <p><br>The answer is a. The Messages app is blue with a white speech bubble in the
+                                    center.</p>
                             </div>
                             <div class="error" id="correctQ1">
                                 <p><br>That's correct!!</p>
@@ -67,32 +67,43 @@
                     </div>
 
                     <div class="card">
-                        <h4>Question 2 - How do you dial someone in FaceTime?</h4>
+                        <h4>Question 2 - How to open up the photo library to send an image to someone?
+                        </h4>
 
                         <form id="registration_form" onsubmit="return checkForm2()">
 
                             <div>
                                 <p>
                                     <input type="radio" id="a2" name="question2" value="a2">
-                                    <label for="a">a. Click the plus button and add your person you wish to facetime,
-                                        <br>then click the phone button.</label><br>
+                                    <label for="a">a. Open up messages, click on contact to select how to wish to send
+                                        <br>to, click on the square button with a smiley face which will bring you to
+                                        your
+                                        <br>image library.<br>
+
+                                    </label><br>
                                     <input type="radio" id="b2" name="question2" value="b2">
-                                    <label for="b">b. Click the plus button and add your person you wish to facetime,
-                                        <br>click the 3 dots button and press video.</label><br>
+                                    <label for="b">b. Open up messages, click on contact to select how to wish to send
+                                        <br>to, click on the + sign button then press on Image to bring up the you image
+                                        <br>library.
+
+                                    </label><br>
                             </div>
                             <div class="error" id="question2Error">
-                                <p>The answer is b. <br>
-                                    1. Click on the FaceTime app which is green with a video recorder in the center.<br>
-                                    2. Click the ‘add’ button on the top right of the screen.<br>
-                                    3. Click the small round button with an add symbol in the middle.<br>
-                                    4. Scroll through your contacts and choose who you want to call.<br>
-                                    5. Click the third circle option which is labelled ‘video’.<br>
-                                    6. The call should commence.</p>
+                                <p>The answer is b.<br>
+                                    1. Open the blue app which has a text bubble icon inside it.<br>
+                                    2. Click the contacts button, the page should now open up.<br>
+                                    3. Scroll through until you find the person you are planning to send an image to.
+                                    Click on their name.<br>
+                                    4. Once opened, click on the plus symbol on the bottom left-hand corner of the
+                                    screen.<br>
+                                    5. A variety of options would appear, find the icon that says 'Image'.<br>
+                                    6. Click on the icon and it will lead you to your gallery.<br>
+
+                                </p>
                             </div>
                             <div class="error" id="correctQ2">
                                 <p>That's correct!!</p>
                             </div>
-
                             <div><input id="registration_submit" type="submit" value="Check Answer" /></div>
 
                         </form>
@@ -100,23 +111,30 @@
 
                     <div class="card">
 
-                        <h4>Question 3 - Which icon do you use to flip the camera if It is not facing you?</h4>
+                        <h4>Question 3 - Once in the photo library how do you send the images to someone?
+                        </h4>
 
                         <form id="registration_form" onsubmit="return checkForm3()">
 
                             <div>
                                 <p>
                                     <input type="radio" id="a3" name="question3" value="a3">
-                                    <label for="a">a. <img src="images/a3.png" alt="a"></label><br><br>
+                                    <label for="a">a. Tap on the images you wish to send and press done then
+                                        click on the arrow button on the button right side to send.
+                                        <br>
+                                    </label><br>
                                     <input type="radio" id="b3" name="question3" value="b3">
-                                    <label for="b">b. <img src="images/b3.png" alt="a"></label><br><br>
-                                    <input type="radio" id="c3" name="question3" value="c3">
-                                    <label for="c">c. <img src="images/c3.png" alt="a"></label><br><br>
-                                    <input type="radio" id="d3" name="question3" value="d3">
-                                    <label for="d">d. <img src="images/d3.png" alt="a"></label></p>
+                                    <label for="b">b. Tap on the images you wish to send and press done and then
+                                        the images to you selected will send.
+                                    </label><br>
                             </div>
                             <div class="error" id="question3Error">
-                                <p><br>The answer is a, the icon with a switch symbol in the middle of the camera.</p>
+                                <p><br>The answer is a.<br>
+                                    1. Once you have selected your image, it should have a tick on it. Proceed
+                                    to press the done button.<br>
+                                    2. It will lead you back to your contact, now click on the green arrow to
+                                    send.
+                                </p>
                             </div>
                             <div class="error" id="correctQ3">
                                 <p><br>That's correct!!</p>

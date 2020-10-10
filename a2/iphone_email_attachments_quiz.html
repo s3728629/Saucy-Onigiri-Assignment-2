@@ -2,11 +2,11 @@
 <html>
 
 <head>
-    <title>iPhone: FaceTime Quiz</title>
+    <title>iPhone: Email attachment - Quiz</title>
     <link rel="stylesheet" type="text/css" href="styles/quiz.css" />
     <link href='https://fonts.googleapis.com/css?family=Alegreya Sans SC' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
-    <script type="text/javascript" src="scripts/facetime_quiz.js"></script>
+    <script type="text/javascript" src="scripts/registration.js"></script>
 </head>
 
 <body>
@@ -26,7 +26,7 @@
 
 
         <div class="box header">
-            <h1>iPhone: FaceTime QuiziPhone: FaceTime Quiz</h1>
+            <h1>iPhone: Email attachment - Quiz</h1>
             <h3> Test your understand here</h3>
             <p><a class="click" href="#">Need help with the quiz?</a></p>
         </div>
@@ -38,24 +38,24 @@
 
                     <div class="card">
 
-                        <h4>Question 1 - Which app the FaceTime app?</h4>
+                        <h4>Question 1 - Which is the email app? </h4>
 
                         <form id="registration_form" onsubmit="return checkForm()">
 
                             <div>
                                 <p>
                                     <input type="radio" id="a1" name="question1" value="a1">
-                                    a. <label for="a"><img src="images/a.png" alt="a"></label><br>
+                                    <label for="a">a. <img src="images/a1.png" alt="a"></label><br>
                                     <input type="radio" id="b1" name="question1" value="b1">
-                                    b. <label for="b"><img src="images/b.png" alt="a"></label><br>
+                                    <label for="b">b. <img src="images/b1.png" alt="a"></label><br>
                                     <input type="radio" id="c1" name="question1" value="c1">
-                                    c. <label for="c"><img src="images/c.png" alt="a"></label><br>
+                                    <label for="c">c. <img src="images/c1.png" alt="a"></label><br>
                                     <input type="radio" id="d1" name="question1" value="d1">
-                                    d. <label for="d"><img src="images/d.png" alt="a"></label></p>
+                                    <label for="d">d. <img src="images/d1.png" alt="a"></label></p>
                             </div>
                             <div class="error" id="question1Error">
-                                <p><br>The answer is d, FaceTime app is with a video recorder in the center as you are
-                                    filming your face.</p>
+                                <p><br>The answer is c.The Mail app icon is blue with a white envelope in the center.
+                                </p>
                             </div>
                             <div class="error" id="correctQ1">
                                 <p><br>That's correct!!</p>
@@ -67,27 +67,43 @@
                     </div>
 
                     <div class="card">
-                        <h4>Question 2 - How do you dial someone in FaceTime?</h4>
+                        <h4>Question 2 - How do you attach a file to you email?
+                        </h4>
 
                         <form id="registration_form" onsubmit="return checkForm2()">
 
                             <div>
                                 <p>
                                     <input type="radio" id="a2" name="question2" value="a2">
-                                    <label for="a">a. Click the plus button and add your person you wish to facetime,
-                                        <br>then click the phone button.</label><br>
+                                    <label for="a">a. When writing your email, click on the blue paper clip icon which
+                                        opens up
+                                        <br>a bar and click on Add Attachment. Then select file.</label><br>
                                     <input type="radio" id="b2" name="question2" value="b2">
-                                    <label for="b">b. Click the plus button and add your person you wish to facetime,
-                                        <br>click the 3 dots button and press video.</label><br>
+                                    <label for="b">b. Once writing your email, long press down on the email then press
+                                        the
+                                        <br>arrow button on the bar that pops up and select Add Attachment. Then select
+                                        file.
+                                    </label><br>
+                                    <input type="radio" id="c2" name="question2" value="c2">
+                                    <label for="c"> Do this... </label><br>
+                                    <input type="radio" id="d2" name="question2" value="d2">
+                                    <label for="d"> Do this...</label><br></p>
                             </div>
                             <div class="error" id="question2Error">
-                                <p>The answer is b. <br>
-                                    1. Click on the FaceTime app which is green with a video recorder in the center.<br>
-                                    2. Click the ‘add’ button on the top right of the screen.<br>
-                                    3. Click the small round button with an add symbol in the middle.<br>
-                                    4. Scroll through your contacts and choose who you want to call.<br>
-                                    5. Click the third circle option which is labelled ‘video’.<br>
-                                    6. The call should commence.</p>
+                                <p>The answer is b.<br>
+                                    1. On the main body area in your email, press down your finger for a few seconds
+                                    then lift it up.<br>
+                                    2. A black bar with select, select all and quote level should appear.<br>
+                                    3. Press the white triangle on the right side of the bar.<br>
+                                    4. You will now see two options: Insert Photo or Video and Add Attachment. Select
+                                    the one that applies to what you would like to attach.<br>
+                                    5. If you chose to attach an image or video:<br>
+                                    6. Select “All Photos” and select your wanted photo or video.<br>
+                                    7. If you chose to add attachment:<br>
+                                    8. Select your file.<br>
+                                    9. After successfully attaching, fill in the other details and your message, then
+                                    press send to send your message.
+                                </p>
                             </div>
                             <div class="error" id="correctQ2">
                                 <p>That's correct!!</p>
@@ -100,23 +116,20 @@
 
                     <div class="card">
 
-                        <h4>Question 3 - Which icon do you use to flip the camera if It is not facing you?</h4>
+                        <h4>Question 3 - Can you attach more than more files?
+                        </h4>
 
                         <form id="registration_form" onsubmit="return checkForm3()">
 
                             <div>
                                 <p>
                                     <input type="radio" id="a3" name="question3" value="a3">
-                                    <label for="a">a. <img src="images/a3.png" alt="a"></label><br><br>
+                                    <label for="a">a. No</label><br>
                                     <input type="radio" id="b3" name="question3" value="b3">
-                                    <label for="b">b. <img src="images/b3.png" alt="a"></label><br><br>
-                                    <input type="radio" id="c3" name="question3" value="c3">
-                                    <label for="c">c. <img src="images/c3.png" alt="a"></label><br><br>
-                                    <input type="radio" id="d3" name="question3" value="d3">
-                                    <label for="d">d. <img src="images/d3.png" alt="a"></label></p>
+                                    <label for="b">b. Yes</label><br>
                             </div>
                             <div class="error" id="question3Error">
-                                <p><br>The answer is a, the icon with a switch symbol in the middle of the camera.</p>
+                                <p><br>The answer is ....</p>
                             </div>
                             <div class="error" id="correctQ3">
                                 <p><br>That's correct!!</p>
