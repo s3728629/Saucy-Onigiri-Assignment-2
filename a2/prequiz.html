@@ -6,16 +6,11 @@
     <link rel="stylesheet" type="text/css" href="styles/select.css" />
     <link href='https://fonts.googleapis.com/css?family=Alegreya Sans SC' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
-    <!-- some reason, when I link my js file with the js code in it to the html, it does 
-          not work.
-          But it works when I put the js in the html file.-->
-
+   
 </head>     
 
 <body>
 
-
-<!--surround the select box with a "custom-select" DIV element. Remember to set the width:-->
 <div class="wrapper">
   <div class="nav">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#71A894" height="50px">
@@ -30,10 +25,10 @@
 
 <div class ="header2">
 
-  <h1>Welcome To Stay Connected</h1>
+  <h1 class = 'fchang'>Welcome To Stay Connected</h1>
   <h3>In order to create the best experience for you, please take this quiz. This quiz will customise your website interface to adjust to your suitable needs. After completing this short quiz, you will be taken to the home page. Otherwise, if you wish to skip this quiz, please click on the 'Skip' button below.
   </h3>
-  <h4><button type="button" id= "button" onclick="location.href='#';">Skip</button></h4>
+  <h4><button type="button" id= "button" onclick="location.href='index.html';">Skip</button></h4>
   <div class="tute">
 </div>
 <div class="content">
@@ -65,7 +60,7 @@
 <form class="custom-select" style="width:200px;" action ="#">
   <select class = 'font_selection'>
     <option value="0">Select Font Size</option>
-    <option value="1">Small</option>
+    <option value="1">Small (Default)</option>
     <option value="2">Medium</option>
     <option value="3">Large</option>
     
@@ -80,17 +75,19 @@
     <h2 class = 'fchang'>3. What type of device are you using?</h2>
     <div class ="selectionCard">
       <form class= "radio_form" action="#">
-        <input type="radio" id="male" name="gender" value="male">
-        <label for="male">Andriod (eg. Samsung, Google)</label><br>
-        <input type="radio" id="female" name="gender" value="female">
-        <label for="female">Apple (eg. iPhone)</label>
+        <input type="radio" id="andriod" name="devices" value="andriod">
+        <label for="device1">Andriod (eg. Samsung, Google)</label><br>
+        <input type="radio" id="apple" name="devices" value="apple">
+        <label for="device2">Apple (eg. iPhone)</label><br>
+        <input type="radio" id="both" name="devices" value="both">
+        <label for="device3">Both</label>
       
     </form>
       </div> <!-- closes selectionCard-->
   </div>
   <span style="text-align: right;">
 
-    <h4><button type="button" id= "button" onclick="changeFont()">Finished</button></h4>
+    <h4><button action="index.html" type="button" id= "button" onclick="location.href='index.html';" class = '_button'>Finished</button></h4>
 </span>
 </div> <!-- closing of tute one-->
 
@@ -101,7 +98,6 @@
 <div class="box footer">
   <p><br>© Copyright since 2020</p>
 </div>
-
 <script>
 
   var x, i, j, l, ll, selElmnt, a, b, c;
@@ -186,5 +182,6 @@ document.addEventListener("click", closeAllSelect);
 
 </body>
 <script type="text/javascript" src="scripts/prequiz.js"></script>
+
 
 </html>
