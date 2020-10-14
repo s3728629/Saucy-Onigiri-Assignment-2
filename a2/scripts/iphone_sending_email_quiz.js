@@ -14,7 +14,7 @@ function checkForm() {
 
 function checkForm2() {
 
-    if (!(a2.checked)) {
+    if (!(b2.checked)) {
         document.getElementById("question2Error").style.display = "inline";
         return false;
     }
