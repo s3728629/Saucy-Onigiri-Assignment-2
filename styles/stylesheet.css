@@ -21,6 +21,7 @@ h2 {
     font-style: normal;
     color: #FF7E67;
     font-size: 40px;
+    text-align: center;
 }
 
 h3 {
@@ -57,7 +58,7 @@ figcaption {
     border-radius: 0px;
     height: 99.5%;
     background-color: #ECF4F3;
-    text-align: center;
+    text-align: left;
     border-radius: 50px;
 }
 
