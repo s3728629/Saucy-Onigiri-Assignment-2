@@ -110,7 +110,7 @@
             grid-template-columns: repeat(2, 1fr);
         }
           
-          .card {
+           .button {
             display: flex;
             flex-direction: column;
             justify-content: space-between;
@@ -118,7 +118,7 @@
             padding: 1rem;
             text-align: center;
             border-radius: 15px;
-          }
+        }
 
           .card2 {
             display: flex;
