@@ -162,3 +162,10 @@ li {
     max-width:40%;
     height:auto;
 }
+.img1{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+
+}
