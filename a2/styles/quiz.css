@@ -104,6 +104,17 @@ h4 {
     border-radius: 15px;
 }
 
+.answer{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    font-family: 'Roboto';
+    font-style: normal;
+    color: #000000;
+    font-size: 24px;
+}
+
 .wrapper {
     display: grid;
     grid-gap: 25px;
